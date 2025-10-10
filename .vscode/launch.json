@@ -9,33 +9,11 @@
             "type": "debugpy",
             "request": "launch",
             "args": [
-                "createsuperuser"
-            ],
-            "django": true,
-            "autoStartBrowser": false,
-            "program": "${workspaceFolder}\\telegram_bot\\manage.py"
-        },
-        {
-            "name": "Python Debugger: Django",
-            "type": "debugpy",
-            "request": "launch",
-            "args": [
                 "runserver"
             ],
-            "django": true,
+            "django": false,
             "autoStartBrowser": false,
-            "program": "${workspaceFolder}\\telegram_bot\\manage.py"
-        },
-        {
-            "name": "Python Debugger: Django",
-            "type": "debugpy",
-            "request": "launch",
-            "args": [
-                "runserver"
-            ],
-            "django": true,
-            "autoStartBrowser": false,
-            "program": "${workspaceFolder}\\telegram_bot\\manage.py"
+            "program": "${workspaceFolder}\\manage.py"
         }
     ]
 }
